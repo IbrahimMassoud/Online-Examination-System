@@ -1,0 +1,69 @@
+﻿@page
+@model ExaminationSystemProject.Pages.Faculties.StartExamModel
+@{
+}
+
+<h1>Welcome from Start Exam</h1>
+
+<h3>⦿ OverAll Details </h3>
+
+
+
+<table class="table">
+	<tr class="font-weight-bold bg-dark text-white">
+		<td>Subject Name</td>
+		<td>Total Mark</td>
+		<td>Number of Question</td>
+	</tr>
+	<tr>
+		<td>@Model.SubjectName</td>
+		<td>@Model.TotalMark</td>
+		<td>@Model.Questions.QuestionsCount</td>
+	</tr>
+</table>
+
+
+<h3>⦿ Questions </h3>
+<table class="table">
+
+
+	@foreach (var question in Model.Questions.Questions)
+	{
+		<form method="post">
+
+			<h5>@question.Question</h5>
+			<input type="radio" asp-for="CorrectAnswer" value="@question.ChoiceA" />
+			@question.ChoiceA
+			<br />
+			<input type="radio" asp-for="CorrectAnswer" value="@question.ChoiceB" />
+			@question.ChoiceB
+			<br />
+			<input type="radio" asp-for="CorrectAnswer" value="@question.ChoiceC" />
+			@question.ChoiceC
+			<br />
+			<input type="radio" asp-for="CorrectAnswer" value="@question.ChoiceD" />
+			@question.ChoiceD
+			<br />
+			<h5></h5>
+			@*<input type="submit" class="btn btn-primary" />*@
+
+
+			<button type="submit" asp-page-questionId="@question.QuestionId" class="btn btn-primary">Submit</button>
+		</form>
+	}
+
+
+	@*@foreach (var question in @Model.Questions.Questions)
+		{
+			<tr>
+				<td>@question.Question</td>
+				<td>@question.ChoiceA</td>
+				<td>@question.ChoiceB</td>
+				<td>@question.ChoiceC</td>
+				<td>@question.ChoiceD</td>
+				<td>Save</td>
+
+			</tr>
+		}*@
+
+</table>

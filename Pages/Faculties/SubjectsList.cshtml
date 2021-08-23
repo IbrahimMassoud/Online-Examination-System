@@ -1,0 +1,36 @@
+﻿@page
+@model ExaminationSystemProject.Pages.Faculties.SubjectsListModel
+@{
+}
+
+
+<h3>⦿ Subjects Details </h3>
+
+<table class="table">
+    <tr class="font-weight-bold bg-dark text-white">
+        <td>Subject Name</td>
+        <td>Total Mark</td>
+        <td>Number of Questions</td>
+        <td>Exam</td>
+        
+    </tr>
+
+    @foreach (var subject in @Model.Subjects.Subjects)
+    {
+<tr>
+    <td>@subject.Name</td>
+    <td>@subject.TotalMark</td>
+    <td>@Model.Questions.QuestionsCount</td>
+    <td>
+        <button class="btn btn-success">
+            <a asp-page="./StartExam" asp-route-subjectId="@subject.SubjectId">
+                Start Exam
+            </a>
+        </button>
+    </td>
+
+</tr>
+    }
+
+</table>
+

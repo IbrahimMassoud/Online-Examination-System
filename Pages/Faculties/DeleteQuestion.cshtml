@@ -1,0 +1,22 @@
+﻿@page
+@model ExaminationSystemProject.Pages.Faculties.DeleteQuestionModel
+@{
+}
+
+
+@*<form method="post">
+    <input type="hidden" asp-for="Question.SubjectId" />
+    <button asp-page="./QuestionsBank"  asp-route-subjectId="@Model.Question.SubjectId" type="submit" class="btn btn-danger"> Yes !</button>
+    <a asp-page="./QuestionsBank" asp-route-subjectId="@Model.Question.SubjectId"  class="btn btn-primary"> Cancel </a>
+</form>*@
+<div class="alert alert-danger">
+	Are You Sure You Want to Delete This Question
+</div>
+<form method="post">
+
+	<input type="hidden" asp-for="Question.SubjectId" />
+	<button type="submit" class="btn btn-danger"> Yes !</button>
+
+	<a asp-page="./FacultiesList" class="btn btn-primary"> Cancel </a>
+	@*<a asp-page="./QuestionsBank" asp-route-subjectId="@Model.Question.SubjectId"  class="btn btn-primary"> Cancel </a>*@
+</form>

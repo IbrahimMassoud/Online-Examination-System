@@ -1,0 +1,12 @@
+﻿@page
+@model CompanyProject.Pages.Companies.Employees.DeleteStudentModel
+@{
+}
+<div class="alert alert-danger">
+    Are You Sure You Want to Delete @Model.Student.Name
+</div>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger"> Yes !</button>
+    <a asp-page="./FacultiesList" class="btn btn-primary"> Cancel </a>
+</form>

@@ -1,0 +1,81 @@
+﻿@page
+@model ExaminationSystemProject.Pages.Faculties.QuestionsBankModel
+@{
+}
+
+
+
+<h3>⦿ OverAll Details </h3>
+
+<table class="table">
+    <tr class="font-weight-bold bg-dark text-white">
+        <td>Subject Name</td>
+        <td>Total Mark</td>
+        <td>Number of Question</td>
+    </tr>
+    <tr>
+        <td>@Model.SubjectName</td>
+        <td>@Model.TotalMark</td>
+        <td>@Model.QuestionsCount</td>
+    </tr>
+
+</table>
+
+<h3> Questions Details </h3>
+
+<table class="table">
+    <tr class="font-weight-bold bg-dark text-white">
+        <td>Question</td>
+        <td>ChoiceA</td>
+        <td>ChoiceB</td>
+        <td>ChoiceC</td>
+        <td>ChoiceD</td>
+        <td>CorrectAnswer</td>
+        <td>Edit Question</td>
+        <td>Delete Question</td>
+    </tr>
+
+    @foreach (var question in @Model.Questions.Questions)
+    {
+        <tr>
+            <td>@question.Question</td>
+            <td>@question.ChoiceA</td>
+            <td>@question.ChoiceB</td>
+            <td>@question.ChoiceC</td>
+            <td>@question.ChoiceD</td>
+            <td>@question.CorrectAnswer</td>
+            <td>
+                <a asp-page="AddEditQuestion" asp-route-questionId="@question.QuestionId" asp-route-subjectId="@Model.SubjectId">Edit</a>
+            </td>
+            <td>
+                <a asp-page="DeleteQuestion" asp-route-questionId="@question.QuestionId" asp-route-subjectId="@Model.SubjectId">Delete</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<button class="btn btn-success">
+    <a asp-page="AddEditQuestion"
+       asp-route-subjectId="@Model.SubjectId">
+        Add New Question
+    </a>
+</button>
+<button class="btn btn-info">
+    <a asp-page="./FacultiesList">Back</a>
+</button>
+
+
+@*<button class="btn btn-success">
+    <a asp-page="./StartExam"
+        asp-route-subjectId="@Model.Questions.Questions.First().SubjectId">
+        Start Exam
+    </a>
+</button>*@
+
+@*<button class="btn btn-success">
+    <a asp-page="./StartExam"  asp-route-subjectId="@Model.SubjectId">
+        Start Exam
+    </a>
+</button>*@
+

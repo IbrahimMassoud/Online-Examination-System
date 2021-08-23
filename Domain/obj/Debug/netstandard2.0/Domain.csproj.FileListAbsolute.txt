@@ -1,0 +1,54 @@
+E:\NewRepo\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+E:\NewRepo\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.dll
+E:\NewRepo\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.pdb
+E:\NewRepo\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+E:\NewRepo\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+E:\NewRepo\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+E:\NewRepo\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+E:\NewRepo\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.dll
+E:\NewRepo\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.pdb
+D:\ITI Lecture\BackEnd\ExamSystemProject\ExaminationSystem\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+D:\ITI Lecture\BackEnd\ExamSystemProject\ExaminationSystem\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+D:\ITI Lecture\BackEnd\ExamSystemProject\ExaminationSystem\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+D:\ITI Lecture\BackEnd\ExamSystemProject\ExaminationSystem\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+D:\ITI Lecture\BackEnd\ExamSystemProject\ExaminationSystem\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.dll
+D:\ITI Lecture\BackEnd\ExamSystemProject\ExaminationSystem\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.pdb
+D:\ITI Lecture\BackEnd\ExamSystemProject\ExaminationSystem\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+D:\ITI Lecture\BackEnd\ExamSystemProject\ExaminationSystem\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.dll
+D:\ITI Lecture\BackEnd\ExamSystemProject\ExaminationSystem\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.pdb
+F:\ITI\Backend\ExamProj\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+F:\ITI\Backend\ExamProj\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.dll
+F:\ITI\Backend\ExamProj\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.pdb
+F:\ITI\Backend\ExamProj\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+F:\ITI\Backend\ExamProj\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+F:\ITI\Backend\ExamProj\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+F:\ITI\Backend\ExamProj\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+F:\ITI\Backend\ExamProj\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.dll
+F:\ITI\Backend\ExamProj\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.pdb
+C:\Users\Massoud\Downloads\ExamProject\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\Users\Massoud\Downloads\ExamProject\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Massoud\Downloads\ExamProject\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Users\Massoud\Downloads\ExamProject\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Massoud\Downloads\ExamProject\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Users\Massoud\Downloads\ExamProject\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.pdb
+C:\Users\Massoud\Downloads\ExamProject\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Users\Massoud\Downloads\ExamProject\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\Massoud\Downloads\ExamProject\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\Mohamed\Desktop\Final Ibrahim BackEnd\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Users\Mohamed\Desktop\Final Ibrahim BackEnd\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\Mohamed\Desktop\Final Ibrahim BackEnd\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\Mohamed\Desktop\Final Ibrahim BackEnd\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\Users\Mohamed\Desktop\Final Ibrahim BackEnd\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Mohamed\Desktop\Final Ibrahim BackEnd\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Users\Mohamed\Desktop\Final Ibrahim BackEnd\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\Desktop\Final Ibrahim BackEnd\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Users\Mohamed\Desktop\Final Ibrahim BackEnd\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.pdb
+F:\ITI\Backend\Final Project Exsystem\ExamProject\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+F:\ITI\Backend\Final Project Exsystem\ExamProject\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.dll
+F:\ITI\Backend\Final Project Exsystem\ExamProject\ExamProject\Domain\bin\Debug\netstandard2.0\Domain.pdb
+F:\ITI\Backend\Final Project Exsystem\ExamProject\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+F:\ITI\Backend\Final Project Exsystem\ExamProject\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+F:\ITI\Backend\Final Project Exsystem\ExamProject\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+F:\ITI\Backend\Final Project Exsystem\ExamProject\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+F:\ITI\Backend\Final Project Exsystem\ExamProject\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.dll
+F:\ITI\Backend\Final Project Exsystem\ExamProject\ExamProject\Domain\obj\Debug\netstandard2.0\Domain.pdb

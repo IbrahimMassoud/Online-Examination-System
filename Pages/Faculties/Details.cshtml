@@ -1,0 +1,63 @@
+﻿@page
+@model CompanyProject.Pages.Companies.DetailsModel
+@{
+}
+
+
+<h3>⦿ Studets Assigned To </h3>
+
+<table class="table">
+    <tr class="font-weight-bold bg-dark text-white">
+
+        <td>Name</td>
+        <td>Grade</td>
+        <td>/</td>
+        <td>Total Marks</td>
+        <td>Edit Student</td>
+        <td>Delete Student</td>
+    </tr>
+
+
+    @foreach (var student in @Model.Students.Students)
+    {
+
+
+        <tr>
+
+            <td> @student.Name</td>
+
+            @foreach (var item in Model.grad)
+            {
+                if (item.StudentId == student.Id)
+                {
+                    <td>@item.Grade</td>
+
+                }
+
+            }
+            <td>/</td>
+            <td>@Model.subject </td>
+            <td>
+                <a asp-page="EditStudent" asp-route-studentId="@student.Id" asp-route-facultyId="@student.FacultyId ">Edit</a>
+            </td>
+            <td>
+                <a asp-page="DeleteStudent" asp-route-studentId="@student.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+
+<button class="btn btn-success">
+    <a asp-page="EditStudent" asp-route-facultyId="@Model.Students.Students.FirstOrDefault().FacultyId" asp-route-subjectId="@Model.SubjectId">
+        Add New Student
+    </a>
+</button>
+
+
+
+<button class="btn btn-info">
+    <a asp-page="FacultiesList">Back to Faculties List</a>
+</button>
+
+
+@*<button class="btn btn-primary"><a asp-page="HasExam" asp-route-subjectId="@Model.SubjectId">Assign Students To Exam </a> </button>*@
